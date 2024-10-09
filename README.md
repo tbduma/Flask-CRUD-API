@@ -1,6 +1,6 @@
 # Flask CRUD API - Backend and API Development
 
-This project contains a Flask-based RESTful API for managing product information. The API supports CRUD (Create, Retrieve, Update, Delete) operations, allowing users to add, retrieve, update, and delete product entries.
+This project contains a Flask-based RESTful API for managing product information. The API supports CRUD (Create, Read, Update, Delete) operations, allowing users to add, read, update, and delete product entries.
 
 ## Setting Up and Running the Project
 
