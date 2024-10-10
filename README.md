@@ -23,7 +23,8 @@ Follow the steps below to set up and run the project on your local machine.
 
 2. Install the required packages:
     ```bash
-    pip install Flask
+    pip install -r requirements.txt
+    
     ```
 
 4. Run the application:
@@ -32,7 +33,7 @@ Follow the steps below to set up and run the project on your local machine.
     ```
 
 5. Verify the server is running:
-   - Open a browser or Postman and go to `http://127.0.0.1:5000`.
+   - Open Postman and go to `http://127.0.0.1:5000`.
    - The API should be working correctly.
 
 ### API Endpoints and Usage
@@ -40,7 +41,7 @@ Follow the steps below to set up and run the project on your local machine.
 Below are the CRUD operations and how to interact with them.
 
 #### POST: Add a Product
-- **URL:** `http://127.0.0.1:5000/products`
+- **URL:** `http://127.0.0.1:5000/addProducts`
 - **HTTP Method:** `POST`
 - **Body (JSON):**
 
@@ -64,7 +65,7 @@ Below are the CRUD operations and how to interact with them.
 
 GET: Retrieve a Product
 
-	•	URL: http://127.0.0.1:5000/products/1
+	•	URL: http://127.0.0.1:5000/getProduct/1
 	•	HTTP Method: GET
 	•	Success Response:
 	•	HTTP Status Code: 200 OK
@@ -79,7 +80,7 @@ GET: Retrieve a Product
 
 PUT: Update a Product
 
-	•	URL: http://127.0.0.1:5000/products/1
+	•	URL: http://127.0.0.1:5000/modifyProduct/1
 	•	HTTP Method: PUT
 	•	Body (JSON):
 {
@@ -98,7 +99,7 @@ PUT: Update a Product
 
 DELETE: Delete a Product
 
-	•	URL: http://127.0.0.1:5000/products/1
+	•	URL: http://127.0.0.1:5000/deleteProduct/1
 	•	HTTP Method: DELETE
 	•	Success Response:
 	•	HTTP Status Code: 200 OK
