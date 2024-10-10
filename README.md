@@ -20,16 +20,10 @@ Follow the steps below to set up and run the project on your local machine.
     cd Flask-CRUD-API
     ```
 
-2. Create a virtual environment:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # macOS/Linux
-    .\venv\Scripts\activate  # Windows
-    ```
 
-3. Install the required packages:
+2. Install the required packages:
     ```bash
-    pip install -r requirements.txt
+    pip install Flask
     ```
 
 4. Run the application:
@@ -124,7 +118,6 @@ The API handles errors with appropriate HTTP status codes and messages. For exam
 Project Structure
 
 	•	main.py: The main API application file.
-	•	venv/: Files for the virtual environment.
 	•	requirements.txt: List of required Python packages.
 
 This information should help you set up, run, and test the API using Postman.
